@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LABA 123</string>
+    <string name="act1">This is Activity 1</string>
+    <string name="act3">This is Activity 3</string>
+    <string name="goto1">Go to Activity 1</string>
+    <string name="goto2">Open Calculator</string>
+    <string name="goto3">Go to Activity 3</string>
+</resources>

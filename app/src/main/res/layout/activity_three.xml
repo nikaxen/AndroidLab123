@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nik_ax.lab123.ActivityThree">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/act3"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnActOne"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnActOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="gotoAct1"
+        android:text="@string/goto1"
+        tools:layout_editor_absoluteY="405dp"
+        tools:layout_editor_absoluteX="173dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="34dp" />
+</RelativeLayout>
